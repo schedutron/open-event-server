@@ -10,7 +10,7 @@ addons:
       - libssl-dev
       - libffi-dev
 python:
-  - '3.6'
+  - '3.5'
 cache: pip
 before-install:
   - npm -g install npm@latest
